@@ -46,6 +46,17 @@ resources to be used more efficiently.
 802.15.4 wireless is ZigBee. The paper proposes to use RSSI to estimate interference from competing networks and the choose the best channel to setup the network. The ZigBe communication is improved by picking the channels not affected by ongoing
 WiFi transmissions. 
 
+## 5G Multi-RAT LTE-WiFi Ultra-Dense Small Cells
+
+The authors analyze the possibility of integrated multi radio access technology. While many of today’s pico cells are still installed by the mobile network operators in a (semi-) planned manner, the deployment of femto cells remains mostly unplanned.Therefore, ultradense networks are becoming a reality. "Therefore, any UE that wishes to use a non-3GPP
+(alien) RAT together with cellular access must route its traffic
+to the operator’s PDN GW, from where the packets will be
+forwarded to the destination following the logic of mobile IP.
+Since mobile IP traffic is blocked by most network address
+translation (NAT) devices, which are abundant in today’s IPv4
+infrastructure, the mobile IP session needs to be tunneled to
+the PDN GW through a VPN tunnel." 
+
 
 
 TODO: Capture effect in WiFi, see if there is a variable guard interval solution

@@ -60,3 +60,20 @@ the PDN GW through a VPN tunnel."
 
 
 TODO: Capture effect in WiFi, see if there is a variable guard interval solution
+
+
+## Increasing Indoor Wireless Capacity Using Directional Antennas
+
+The author of this paper proposes a new way to increase bandwidth of indoor wifi networks using directional antenna. Traditionally directional antenna's are used outdoors where the "Line of sight" is clear between reciever and transmitter. This paper explores an algorithm named DIRC to utilize directional antenna's in indoor environment to increase bandwidth.
+
+Problems with indoor directional antennas:
+-Determining direction of antenna
+-Determining which antennas can transmit concurrently.
+
+For first problem: determining direction of antenna DIRC parts itself from max SNR approach. Max SNR is basically finding which orientation provides maximum Signal to noise ratio. Max SNR can be effective in outdoor environments however indoors if two recievers are close to each and recieve signals from two different antenna's based on their SNR a large interferance will occur. To tackle this problem DIRC exploits reflected paths to minimize interferance. 
+
+To determine which antennas can transmit concurrently DIRC utilizes a conflict graph where it uses a brute force algorithm to compare different paths for different nodes and how interferance occur between them.
+
+The DIRC algorithm uses this conflict graph and schedule requests accordingly.
+
+More about DIRC here: http://delivery.acm.org/10.1145/1600000/1592589/p171-liu.pdf?ip=91.230.41.205&id=1592589&acc=PUBLIC&key=36E5A5D4E382B3FA%2E36E5A5D4E382B3FA%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=991547228&CFTOKEN=20628814&__acm__=1507042339_67b3d63f3b7e6b7acf38124fa1c88204

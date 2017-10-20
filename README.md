@@ -77,3 +77,7 @@ To determine which antennas can transmit concurrently DIRC utilizes a conflict g
 The DIRC algorithm uses this conflict graph and schedule requests accordingly.
 
 More about DIRC here: http://delivery.acm.org/10.1145/1600000/1592589/p171-liu.pdf?ip=91.230.41.205&id=1592589&acc=PUBLIC&key=36E5A5D4E382B3FA%2E36E5A5D4E382B3FA%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=991547228&CFTOKEN=20628814&__acm__=1507042339_67b3d63f3b7e6b7acf38124fa1c88204
+
+## Adjacent Channel Interference in 802.11a Is Harmful: Testbed Validation of a Simple Quantification Model
+
+Even though 802.11a OFDM there still exists interference between adjacent channels. This paper may be useful because it describes how to setup an experiment in WiFi involving sensitive readings. 

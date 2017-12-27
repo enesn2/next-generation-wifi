@@ -81,3 +81,7 @@ More about DIRC here: http://delivery.acm.org/10.1145/1600000/1592589/p171-liu.p
 ## Adjacent Channel Interference in 802.11a Is Harmful: Testbed Validation of a Simple Quantification Model
 
 Even though 802.11a OFDM there still exists interference between adjacent channels. This paper may be useful because it describes how to setup an experiment in WiFi involving sensitive readings. 
+
+## Modelling Capture Behaviour in IEEE 802.11 Radio Modems
+
+This paper talks about modelling the capture effect. Additionally, it's useful in describing the fairness metrics used in communnications. 

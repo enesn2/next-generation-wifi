@@ -85,3 +85,7 @@ Even though 802.11a OFDM there still exists interference between adjacent channe
 ## Modelling Capture Behaviour in IEEE 802.11 Radio Modems
 
 This paper talks about modelling the capture effect. Additionally, it's useful in describing the fairness metrics used in communnications. 
+
+## ZigZag Decoding: Combating Hidden Terminals in Wireless Networks
+
+This paper is interesting because it addresses the hidden terminal problem in a novel way.
